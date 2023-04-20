@@ -1,0 +1,6 @@
+{
+    "token": "TOKEN_HERE",
+    "server_ip": "acme.com",
+    "server_name": "acme",
+    "channel_id": 123456
+}
