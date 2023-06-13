@@ -1,6 +1,6 @@
 {
-    "token": "TOKEN_HERE",
-    "server_ip": "acme.com",
-    "server_name": "acme",
-    "channel_id": 123456
-}
+    "token": "YOUR_DISCORD_BOT_TOKEN",
+    "server_ip": "YOUR_MINECRAFT_SERVER_IP",
+    "server_name": "YOUR_SERVER_NAME",
+    "channel_id": "YOUR_DISCORD_CHANNEL_ID"
+  }
