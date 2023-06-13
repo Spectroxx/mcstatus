@@ -27,7 +27,7 @@ pip3 install -r requirements.txt
 ```
 ## Usage
 To start the bot, run the following command:
-```
+```bash
 python3 mcstatus.py
 ```
 
