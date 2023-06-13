@@ -53,23 +53,4 @@ async def background_task():
 async def on_ready():
     print(f'{client.user} is online!')
     client.loop.create_task(background_task())
-
-print(""" ________________________________________ 
-/ We are the Borg. We will add your maps \\
-| to our own. Your worlds will adapt to  |
-\ service us. Resistance is futile.      /
- ---------------------------------------- 
-        \\
-         \\
-          \\
-           /-/_"/-/_/-/|
-          /"-/-_"/-_//||
-         /__________/|/|
-         |"|_'='-]:+|/||
-         |-+-|.|_'-"||//
-         |[".[:!+-'=|//
-         |='!+|-:]|-|/
-          ----------""")
-
-
 client.run(TOKEN)
