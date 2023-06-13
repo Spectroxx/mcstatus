@@ -37,5 +37,5 @@ python3 mcstatus.py
 -   Retrieves the list of online players and displays their names.
 
 ## Links
-[License](https://github.com/Spectroxx/mcstatus/blob/main/LICENSE)
+[License](https://github.com/Spectroxx/mcstatus/blob/main/LICENSE)<br>
 [mcsrvstat.us API](https://api.mcsrvstat.us/)
