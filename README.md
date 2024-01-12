@@ -22,7 +22,7 @@ pip3 install -r requirements.txt
   "token": "YOUR_DISCORD_BOT_TOKEN",
   "server_ip": "YOUR_MINECRAFT_SERVER_IP",
   "server_name": "YOUR_SERVER_NAME",
-  "channel_id": "YOUR_DISCORD_CHANNEL_ID"
+  "channel_id": YOUR_DISCORD_CHANNEL_ID
 }
 ```
 ## Usage
