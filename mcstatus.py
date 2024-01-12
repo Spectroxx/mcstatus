@@ -41,7 +41,7 @@ async def send_embedded_message():
         player_names_block += "```"
         embed.add_field(name='Players:', value=player_names_block, inline=False)
         channel = client.get_channel(CHANNEL_ID)
-        await channel.send(embed=embed)
+        await channel.send(embed)
 
 async def background_task():
     await client.wait_until_ready()
