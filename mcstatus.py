@@ -41,7 +41,7 @@ async def send_embedded_message():
         player_names_block += "```"
         embed.add_field(name='Players:', value=player_names_block, inline=False)
         channel = client.get_channel(CHANNEL_ID)
-        await channel.send(embed)
+        await channel.send(embed=embed)
 
 async def background_task():
     await client.wait_until_ready()
@@ -52,5 +52,9 @@ async def background_task():
 @client.event
 async def on_ready():
     print(f'{client.user} is online!')
+    for guild in client.guilds:
+        print(f'Connected to guild: {guild.name}, id: {guild.id}')
+        for channel in guild.channels:
+            print(f'Channel: {channel.name}, id: {channel.id}')
     client.loop.create_task(background_task())
 client.run(TOKEN)
